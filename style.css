@@ -1,0 +1,146 @@
+header .logo h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    background-color: #fff8e1;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #ad2814;
+}
+
+/* Header */
+header {
+    background-color: #ffc935;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    background-color: #e5930e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    font-family:'Courier New', Courier, monospace
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffeb3b;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #c2185b;
+}
+
+/* Menu Section */
+.menu {
+    background-color: #fff3e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+}
+
+.menu-item strong {
+    color: #d32f2f;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #ffccbc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact button:hover {
+    background-color: #c2185b;
+}
+
+/* Footer */
+footer {
+    background-color: #f57c00;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 20px;
+}

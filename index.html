@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chabo Chicken">
+    <meta name="author" content="Lee Ervin DC. Calara">
+    <title>Chabo Fried Chicken Tenders</title>
+    <link rel="icon" type="image/x-icon" href="https://photos.app.goo.gl/XXMnaSXEb4rT42Hv7">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Chabo Chicken</h1>
+            <p>Best Chicken tenders of Gapan!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="chicken"></section>
+        <h2>Welcome to Chabo Chicken</h2>
+        <p>Home to Gapan's crispiest and juiciest boneless tenders. Here we will serve you with convenience, quality, and love. </p>
+        <p>Located at San Lorenzo, Gapan City, near the Local Night Market.<br>
+        OPENING TIME: 11:00AM(Weekdays) - 10:00AM(Weekends)<br>
+        CLOSING TIME: 10:00PM(Weekdays) - 11:00PM(Weekends)</p>
+    </section>
+
+    <section id="about" class="about"></section>
+        <h2>ABOUT US</h2>
+        <p>Chabo Chicken first opened on July 25, 2024. We use the most quality chicken and ingredients you can ever find here in the Philippines.  Also a special thanks to the investors in our investors as we now have a SECOND BRANCH LOCATED IN SAN ISIDRO, NUEVA ECIJA.</p>
+
+    <section id="menu" class="menu">
+        <button onclick="orderNow()">Order Now</button>
+        <h1>OUR MENU</h1>
+        <h2>Flavored Boneless Chicken</h2>
+        <h2>Dojo Combo</h2>
+        <h2>Step 1: Choose Your Flavor</h2>
+        <ul>
+            <li>• Classic Chicken Tender</li>
+            <li>• Creamy Cheese</li>
+            <li>• Yangnyeom</li>
+            <li>• Jack Daniel's</li>
+            <li>• Honey Glazed</li>
+        </ul>
+        <h2>Step 2: Choose Your Rice</h2>
+        <ul> 
+            <li>Plain Rice</li>
+            <li>Kimchi Fried Rice - +&#8369;20</li>
+            <li>Chabo Signature Rice</li>
+            <li>Yang Chow Fried Rice</li>
+            </ul>
+        <h2>Step 3: Choose Your Amount</h2>
+        <ul>
+            <li>1 pc. - &#8369;99</li>
+            <li>2 pcs. - &#8369;149</li>
+            <li>3 pcs. - &#8369;172</li>
+        <h2>Tender Boxes</h2>
+        <ul>
+            <li>Makgi(5 pcs.) - &#8369;219</li>
+            <li>Jireugi(10 pcs.) - &#8369;399</li>
+            <li>Chagi(15 pcs.) - &#8369;569</li>
+        </ul>
+        <h2>Drinks</h2>
+        <h3>Milktea - &#8369;69</h3>
+        <ul>
+            <li>Okinawa</li>
+            <li>Wintermelon</li>
+            <li>Chocolate</li>
+            <li>Cookis & Cream</li>
+            <li>Dark Choco</li>
+        </ul>
+        <h3>Fruit Tea - &#8369;65</h3>
+        <ul>
+            <li>Blueberry</li>
+            <li>Lychee</li>
+            <li>Kiwi</li>
+            <li>Passionfruit</li>
+        </ul>
+        <h3>Fruit Soda - &#8369;55</h3>
+        <ul>
+            <li>Blueberry</li>
+            <li>Lychee</li>
+            <li>Kiwi</li>
+            <li>Peach</li>
+        </ul>
+        <h3>Beverages</h3>
+        <ul>
+            <li>Softdrinks(Coke, Royal, Sprite, Mountain Dew) - &#8369;25</li>
+            <li>Rootbeer - &#8369;50</li>
+            <li>Bottled Water - &#8369;15</li>
+            <li>Iced Tea - &#8369;50</li>
+            </ul>
+        <h2>Snacks and Others</h2>
+        <h3>Sidekicks</h3>
+        <ul>
+            <li>Fries - &#8369;40</li>
+            <li>Chicken Nuggets(5 pcs.) - &#8369;65</li>
+            <li>Chicken Nuggets(10 pcs.) - &#8369;89</li>
+            <li>Fries and Nuggets - &#8369;79</li>
+        </ul>
+        <h3>Burgers</h3>
+        <ul>
+            <li>Chicken Burger - &#8369;65</li>
+            <li>Cheesy Chicken Burger - &#8369;75</li>
+            <li>Jack Daniel's Burger - &#8369;80</li>
+            <li>Wasabi Burger - &#8369;85</li>
+        </ul>
+        <h3>Noodles</h3>
+        <ul>
+            <li>Yakisoba - &#8369;60</li>
+            <li>Japchae - &#8369;75</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="https://formsubmit.co/luduvinadenava@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; @ 2025 Chabo Boneless Chicken Tenders. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
